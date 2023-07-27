@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Impact Challenge</title>
+</head>
+<body>
+      <section>
+        <div class="loginContainer">
+            <div class="areaLogin">
+                <p>Login</p>
+                <form id="formularioLogin" >
+                    <div class="dadosUsuario">
+                        <label for="usuarioLogin">
+                           <span>Usuario:</span>  
+                            <input type="text" name="usuarioLogin" id="usuarioLogin">
+                        </label>
+                        <label for="senhaLogin">
+                            <span>Senha:</span>
+                            <input type="password" name="senhaLogin" id="senhaLogin">
+                        </label>
+                    </div>
+                    <div class="botaoEntrar">
+                        <input onclick="login(); return false" type="submit" value="Entrar">
+                    </div>
+                </form>
+            </div>
+        </div>
+      </section> 
+
+    <script src="./assets/javascript/script.js"></script>
+</body>
+</html>

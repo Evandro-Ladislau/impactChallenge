@@ -1,0 +1,61 @@
+body {
+
+   
+    margin: 0;
+    
+}
+
+h1 {
+
+    text-align: center;
+}
+
+.tabelaContainer {
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+.cadastro input {
+
+    border: none; 
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 145px;
+    padding: 3px;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+
+table {
+
+    width: 536px;
+    margin-top: 30px;
+}
+
+.tabela table,th, td {
+
+   text-align: center;
+   border: 1px solid black;
+}
+
+button {
+
+    border-radius: 2px;
+    padding: 2px;
+}
+
+button:hover {
+
+    background-color: black;
+    color: white;
+    transition: 2s;
+
+}
+
